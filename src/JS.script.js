@@ -8,8 +8,8 @@
 
 // Um lembrete é que, uma ordem de operadores sempre será realizada primeiro, idependente dos que forem colocados primeiro, para os dar prioridade e manter a ordem desejada, deve os ccolocar em ()
 
-// A ordem de precedência dos operadores sempre será: () > ** 
-// > * > / > % tem a mesma precendência, nesse caso, quem aparecer primeiro, será feito primeiro.
+// A ordem de precedência dos operadores sempre será: () , **, 
+//  * , / , % , tem a mesma precendência, nesse caso, quem aparecer primeiro, será feito primeiro.
 // e por último, ele fará + e -
 
 // As variaveis são como 'as vagas de um carro' porque sempre que sai uma, vem outra, se N valia 3, e foi feito que N = N + 4, N tera o valor atribuido para o novo valor desse resultado, e assim por diante. Isso se chama auto-atribuição. Isso só funciona caso a mesma variavel receba ela mesma.
