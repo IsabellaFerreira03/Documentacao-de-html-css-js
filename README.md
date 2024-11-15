@@ -1,2 +1,2 @@
 # Documentação de HTML - CSS - JS
- A documentação das tecmologias usadas durante meus estudos.
+ A documentação das tecnologias usadas durante meus estudos.
