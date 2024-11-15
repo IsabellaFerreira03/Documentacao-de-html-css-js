@@ -70,3 +70,19 @@
 // Aqui podemos ver o conceito de 'VERDADEIRO' ou 'FALSO', onde o ? vai ser a verdadiro e o : falso. Tudo irá depende da questão para esse resultado. (Eu não entendi muito bem essa parte, mas espero entende com o tempo e experiencia.) È uma questão parecida com IF e ELSE.
 
 //_______________________________________________________________________
+
+// COMANDOS.
+
+// window.alert() Cria uma janela com um aviso para o usuario na tela do site logo no inicio da entada ou em algum outro momento caso seja configurado.
+
+// window.confirm() Cria uma janela com uma pergunta e irá dar dois botões, uma para sim e uma para não para respinder a pergunta na tela.
+
+// window.prompt() Cria uma janela onde terá uma caixinha de texto para o usuario preencher cm a informção que foi pedida.
+
+
+
+
+
+
+
+
