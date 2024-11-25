@@ -25,10 +25,6 @@ _______________________________________________________________________
 
 _______________________________________________________________________
 
-MACETE: O comadno typeof mostra qual o tipo do dado que você quer ver.
-
-_______________________________________________________________________
-
 --OPERADORES RELACIONAIS
 São os famosos:
  > = Maior
@@ -71,6 +67,11 @@ _______________________________________________________________________
  :
  Aqui podemos ver o conceito de 'VERDADEIRO' ou 'FALSO', onde o ? vai ser a verdadiro e o : falso. Tudo irá depende da questão para esse resultado. (Eu não entendi muito bem essa parte, mas espero entende com o tempo e experiencia.) È uma questão parecida com IF e ELSE.
 
+ _______________________________________________________________________
+
+
+MACETE: O comadno typeof mostra qual o tipo do dado que você quer ver.-
+
 _______________________________________________________________________
 
  COMANDOS.
@@ -82,7 +83,46 @@ _______________________________________________________________________
  window.prompt('') Cria uma janela onde terá uma caixinha de texto para o usuario preencher cm a informção que foi pedida.
 
 
+ _______________________________________________________________________
+
+ ==VARIAVEIS
+
+ VAR
+ Existem muitos tipos de variaveis para se usar no JS, mas por enquanto, vamos ver apenas as que podemos intitular de 'var' e como funcionam. Por exemplo, quando quiser guardar algo dentro de uma var, ela deve ser colocada no começo como "var nome = window.prompt('Qual seu nome?')" Nesse caso, ela ja esta atribuida ali. Então, o resutado da ação feito pelo usuario, ficará dentro da 'var'.
+
+ nessse caso, 'var nome' é o nome da variavel. 
+
+ E para usar a avriavel quando for neccessario, deverá fazer uma concatenação, que é quando usamos a variavel para apresentar a informação guardada. E isso pode ser feito dessa maneira:
+
+ window.alert('É um grande prazer te conhecer,' + nome)
+
+ Veja que depois do texto da string, fora dela, temos um '+' que é a concanetação, e o nome da variavel. Dessa maneira, esta acontecendo uma concatenação da adição da varivel no comando.
+
+ E caso queira acrescentar mais texto depoisa da variavel, também é possivel. Basta adicionar " + 'adicone aqui o texto' " e assim é feita mais uma junção.
+
+ Agora algo importante, caso você tente fazer a var n1, somar com a var n2, ao inves de ela somar os numeros através de um comando como prompot por exemplo, como por exemplo 2+2, ela não vai somar, e sim dazer ser 22, ao invés de 4. Isso porque o + não foi usado para soma, e sim para concatenação. Isso porque ele cosiderou o resultado como string, e não o tipo numerico como adição. Ja uqe o + serve para concatenação em caso de string, e adição para o caso numerico.
+
+Temos que converter para numeros. Chamada de converção de tipo. Nisso vamos utilizar o:
+
+Number.parselnt() no caso de numeros inteiro.
+Number.parseFloat() no caso de numeros reais.
+
+Ou, podemos usar apenar o Number, que irá decidir sozinho se o numero é inteiro ou real. Nesse caso, iria funcionar assim.
+
+var n1 = Number(window.prompt('Digite um numero: '))
+var n2 = Number(window.prompt('Digite outro numero: '))
+
+Pronto, agora estão convertidos para numeros e não strings. Agora os calculos serão mátematicos.
+
+E para converter numeros para string? Simples, é feito da mesma maneira. Mas ao invés de Number, iremos usar String.
+
+
 */
+
+var n1 = Number(window.prompt('Digite um numero: '))
+var n2 = Number(window.prompt('Digite outro numero: '))
+
+
 
 
 
