@@ -85,9 +85,9 @@ _______________________________________________________________________
 
  _______________________________________________________________________
 
- ==VARIAVEIS
+ --VARIAVEIS
 
- VAR
+ --VAR
  Existem muitos tipos de variaveis para se usar no JS, mas por enquanto, vamos ver apenas as que podemos intitular de 'var' e como funcionam. Por exemplo, quando quiser guardar algo dentro de uma var, ela deve ser colocada no começo como "var nome = window.prompt('Qual seu nome?')" Nesse caso, ela ja esta atribuida ali. Então, o resutado da ação feito pelo usuario, ficará dentro da 'var'.
 
  nessse caso, 'var nome' é o nome da variavel. 
@@ -100,7 +100,7 @@ _______________________________________________________________________
 
  E caso queira acrescentar mais texto depoisa da variavel, também é possivel. Basta adicionar " + 'adicone aqui o texto' " e assim é feita mais uma junção.
 
- Agora algo importante, caso você tente fazer a var n1, somar com a var n2, ao inves de ela somar os numeros através de um comando como prompot por exemplo, como por exemplo 2+2, ela não vai somar, e sim dazer ser 22, ao invés de 4. Isso porque o + não foi usado para soma, e sim para concatenação. Isso porque ele cosiderou o resultado como string, e não o tipo numerico como adição. Ja uqe o + serve para concatenação em caso de string, e adição para o caso numerico.
+ Agora algo importante, caso você tente fazer a var n1, somar com a var n2, ao inves de ela somar os numeros através de um comando como prompot por exemplo, como por exemplo 2+2, ela não vai somar, e sim fazer ser 22, ao invés de 4. Isso porque o + não foi usado para soma, e sim para concatenação. Isso porque ele cosiderou o resultado como string, e não o tipo numerico como adição. Ja uqe o + serve para concatenação em caso de string, e adição para o caso numerico.
 
 Temos que converter para numeros. Chamada de converção de tipo. Nisso vamos utilizar o:
 
@@ -116,14 +116,17 @@ Pronto, agora estão convertidos para numeros e não strings. Agora os calculos 
 
 E para converter numeros para string? Simples, é feito da mesma maneira. Mas ao invés de Number, iremos usar String.
 
+Agora vamos ver um exemplo de uma conta de soma.
 
+var n1 = Number(window.prompt('Digite um numero'))
+var n2 = Number(window.prompt('Digite outro numero'))
+var s = n1 + n2
+window.alert('A soma dos valores é ' + s)
+
+Ai está. Ele ira pegar os numeros ditos pelo usuario e os somar, guardando o resultado em uma var e depois o mostrando. Esse caso foi feito com soma, mas também pode ter outras expressões númericas.
+
+No caso para converter string, temos que usar String(n), ou colocamos o que queremos convereter em n.toString()
 */
-
-var n1 = Number(window.prompt('Digite um numero: '))
-var n2 = Number(window.prompt('Digite outro numero: '))
-
-
-
 
 
 
