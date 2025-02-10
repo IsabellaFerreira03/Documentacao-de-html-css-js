@@ -22,37 +22,44 @@
 
     <script src="src/script.js"></script> É para criar um caminho JS
     
-    <title/> Serve para dar titulo a pagina.
+    <title> Serve para dar titulo a pagina.
 
-    <head/> Serve para fechar a cabeça de cima que é composta pelos comandos basico acima e abaixo do title.
+    <head> Serve para fechar a cabeça de cima que é composta pelos comandos basico acima e abaixo do title.
      
-    <body/> Serve para ser o corpo do site, onde todos os códigos iram ficar dentro.
+    <body> Serve para ser o corpo do site, onde todos os códigos iram ficar dentro.
 
-    <h1/> Serve para dar o maior tamanho a uma frase, comumente usada em tituos.
+    <h1> Serve para dar o maior tamanho a uma frase, comumente usada em tituos.
 
-    <h2/> Serve para dar o segundo maior tamanho a uma frase, comumente usada em tituos.
+    <h2> Serve para dar o segundo maior tamanho a uma frase, comumente usada em tituos.
 
-    <h3/> Serve para dar o terceiro maior tamanho a uma frase, comumente usada em subtituos.
+    <h3> Serve para dar o terceiro maior tamanho a uma frase, comumente usada em subtituos.
 
-    <h4/> Serve para dar o quarto maior tamanho a uma frase, comumentee usada em subtituos.
+    <h4> Serve para dar o quarto maior tamanho a uma frase, comumentee usada em subtituos.
 
-    <h5/> Serve para dar o quinto maior tamanho a uma frase, comumente usada em subtituos.
+    <h5> Serve para dar o quinto maior tamanho a uma frase, comumente usada em subtituos.
 
-    <h6/> Serve para dar o menor tamanho a uma frase, comumente usada em letras bem pequenas.
+    <h6> Serve para dar o menor tamanho a uma frase, comumente usada em letras bem pequenas.
 
-    <p/> Serve para criar uma paragrafo.
+    <p> Serve para criar uma paragrafo.
 
     <strong/> Serve para deixzar qualquer palavra dentro dela em negrito.
+
+    <div> Serve para criar um conteiner que poderá ser manioulado depois em CSS ou JS. Para o criar deve colocar <div id="nome da div" </div> E pronto. você criou uma div.
     
     
     -->
 
     
-    <h1>Estudos DOM</h1>
-    <p>Aqui vai o resultado</p>
-    <p>Aprendendo a usar o <strong>DOM</strong> em JS</p>
-    <div>Clique em mim</div>
+   <div id="area" onclick="clicar()">
+    interaja...
+   </div>
 
+   <script>
+    function clicar() {
+        var a = window.document.getElementById('area')
+        a.innerText = 'Clicou!'
+    }
+   </script>
 
 
 

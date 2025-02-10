@@ -1,15 +1,38 @@
 /* 
 --COMANDOS
 
+As divs, quando forem passadas para o CSS, devem ter o titulo, exemplo: div#exemplo. Primeiro deve vir o nome da div, depois o # e então o nome dela. Então será aberto um {}. Exemplo div#exemplo { }. E dentrro dela, começará o estilo da div.
+___________________________________________________________________________
+
 background-color: Serve para dar cor ao fundo, ou melhor, preencher tudo, normalmente é usado para dar ao body, mas pode ser usado em outras tags também.
 
 color: Serve para dar cor a algo, seja titulo ou palavras e letras.
 
+width: Serve para definir a largura
+
+height: Serve para definir a altura
+
+line-height: Serve para dar a mesa altura, ou também, deixar no meio.
+
+text-align: Serve para alinhar o texto em uma posição.
+
 font: Serve para determinar o tipo de fonte, tamanho e posições das palavras e letras usadas no site. 
+
+
 
 */
 
 body {
-    background-color: rgb(53, 114, 227);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+div#area {
+    background: green;
     color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+
 }

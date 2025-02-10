@@ -12,6 +12,28 @@ Uma dessas nabeiras é:
 por Marca --> getElementsByTagName()
 
 por ID --> getElementById() 
+
+______________________________________________________________________
+
+--EVENTOS
+
+Os eventos são tudo o que podem acontecer dentro dos codigos com os evetos dom, onde damos ordens para palavras e figuras e tudo pode acontecer, isso é chamado de eventos.
+
+Para ver todos os eventos disponiveis basta ir na pagina de Event references. La tem uma lista de cada evento.
+______________________________________________________________________
+
+--FUNÇÕES
+
+As funções são conjuntos de codigos que só são acessados caso um evento eme especifico aconteça.
+
+para o iniciar, você precisa criar:
+
+function { }
+
+e então, dar um nome para essa função, que normalmente são nomes de ventos, então quando formos dar  nom de alguma função:
+
+function ação() {
+}
 ______________________________________________________________________
 
 --COMANDOS.
@@ -167,8 +189,7 @@ MACETE: O comadno typeof mostra qual o tipo do dado que você quer ver.-
 
 */
 
-var p1 = window.document.getElementsByTagName('p')[1]
-window.document.write(p1.innerText )
+
 
 
 
