@@ -9,6 +9,7 @@ font: Serve para determinar o tipo de fonte, tamanho e posições das palavras e
 
 */
 
-P {
-   
+body {
+    background-color: rgb(53, 114, 227);
+    color: white;
 }

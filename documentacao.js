@@ -1,6 +1,19 @@
 /* 
 ______________________________________________________________________
 
+--DOM
+
+O DOM, conhecido como Document Object Model, é um conjuto de objtos dentro do vagador, que dá acesso aos componentes dentro do sistema, onde você aprende a manipula-los para usar no site, como das comandos.
+
+E há varias maneiras de acessar e comandar nossos códigos a fazerem o que quisermos. 
+
+Uma dessas nabeiras é: 
+
+por Marca --> getElementsByTagName()
+
+por ID --> getElementById() 
+______________________________________________________________________
+
 --COMANDOS.
 
 window.alert('') Cria uma janela com um aviso para o usuario na tela do site logo no inicio da entada ou em algum outro momento caso seja configurado.
@@ -124,11 +137,13 @@ E caso a ordem de execução da conta seja (!, &&, ||) será feita na ordem de !
 
 _______________________________________________________________________
 
+
 --ORDEM DE PRECEDENCIA DESSA BAGAÇA TODA!!!
-aritmeticos relacionais
+aritmeticos 
+relacionais
 lógicos
 
-_______________________________________________________________________
+______________________________________________________________________
 
 --TERNÁRIO
 ?
@@ -152,7 +167,8 @@ MACETE: O comadno typeof mostra qual o tipo do dado que você quer ver.-
 
 */
 
-
+var p1 = window.document.getElementsByTagName('p')[1]
+window.document.write(p1.innerText )
 
 
 
