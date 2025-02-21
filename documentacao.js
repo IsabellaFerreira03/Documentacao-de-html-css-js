@@ -34,6 +34,8 @@ e então, dar um nome para essa função, que normalmente são nomes de ventos, 
 
 function ação() {
 }
+
+Elas precisam dos metodos, que são o comando que faz algo, por exemplo, o onclick, funciona quando clicamos em algo e ele deve ter um efeito após isso. Isso é um metodo. Emtão damos a ele um nome de nossa escolha para o identificar para ser usado. Vou escolher o nome clicar.
 ______________________________________________________________________
 
 --COMANDOS.
@@ -47,6 +49,13 @@ window.confirm('') Cria uma janela com uma pergunta e irá dar dois botões, uma
 window.prompt('') Cria uma janela onde terá uma caixinha de texto para o usuario preencher cm a informção que foi pedida.
 
 _______________________________________________________________________
+
+
+--METODOS
+
+onclick  Serve para atribuir um click, que irá ser ativado quando clicarmos na palavra ou local onde foi configurado. 
+
+
 
 --IDENTIICADORES
 
@@ -188,10 +197,6 @@ _________________________________________________________________________
 MACETE: O comadno typeof mostra qual o tipo do dado que você quer ver.-
 
 */
-
-
-
-
 
 
 
