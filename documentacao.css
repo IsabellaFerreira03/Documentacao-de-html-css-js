@@ -21,18 +21,3 @@ font: Serve para determinar o tipo de fonte, tamanho e posições das palavras e
 
 
 */
-
-body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-
-div#area {
-    background: green;
-    color: white;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-
-}

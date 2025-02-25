@@ -53,7 +53,7 @@ _______________________________________________________________________
 
 --METODOS
 
-onclick  Serve para atribuir um click, que irá ser ativado quando clicarmos na palavra ou local onde foi configurado. 
+onclick  Serve para atribuir um click, que irá ser ativado quando clicarmos na palavra ou local onde foi configurada.
 
 
 
@@ -196,7 +196,15 @@ _________________________________________________________________________
 
 MACETE: O comadno typeof mostra qual o tipo do dado que você quer ver.-
 
-*/
+_________________________________________________________________________
 
+--CONDIÇÕES
+
+Os famosos if ou else.
+
+if = se
+else = senao
+
+*/
 
 
