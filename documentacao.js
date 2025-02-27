@@ -205,6 +205,71 @@ Os famosos if ou else.
 if = se
 else = senao
 
-*/
+Aqui temos u exemplo de como isso fnciona:
 
+
+var hora = 8
+console.log(`Agora são exatamente ${hora} horas.`)
+if (hora < 12) {
+    console.log('Bom dia!')
+} else if (hora <= 18) {
+    console.log('Boa atrde!')
+} else {
+    console.log('Boa noite!')
+}
+
+É facil de entender caso preste atenção.
+
+E aqui vemos mais um exemplo onde temos um novo comando que mostra ahora eta do computador da pessoa.
+
+var agora = new Date()
+var hora = agora.getHours()
+console.log(`Agora são exatamente ${hora} horas.`)
+if (hora < 12) {
+    console.log('Bom dia!')
+} else if (hora <= 18) {
+    console.log('Boa atrde!')
+} else {
+    console.log('Boa noite!')
+}
+
+Agora veja essse exemplo, o Brake. Ele serve para quebrar, ou melhor, para pausar. Veja o exemplo.
+
+
+var agora = new Date()
+var diaSem = agora.getDay()
+
+--SWITCH
+
+O switch serve para quando o if não é necessario, ou seja,quando alguns resultados ja estão prontos e são simples e valores pontuais.Só funciona com numeros inteiros e caracteres, como strings. Veja o exemplo.
+
+switch(diaSem) {
+    case 0:
+        console.log('Domingo')
+        break
+    case 1:
+        console.log('Segunda')
+        break
+    case 2:
+        console.log('Terça')
+        break
+    case 3: console.count9('Quarta')
+        break
+    case 4: console.log('Quinta')
+        break
+    case 5: console.log('Sexta')
+        break
+    case 6: console.log('Sabado')
+        break    
+}
+
+Caso o Break não estivesse ali, todos os resultados iriam sair uma atras do outro, sendo que com ele, se um resultado ja estiver confirmado, fiacra apenas nele. Será a lionha final. Por exemplo:
+
+Se o resultado foe segunda, ele entregára esse resultado e irá parar, caso não tiver o Break, ele i´ra continuar a passar os resultados que ainda existem.
+
+Lembrando que os nmeros começam a partir do 0. 
+
+
+
+*/
 
