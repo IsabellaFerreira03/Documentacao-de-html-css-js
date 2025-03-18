@@ -269,6 +269,9 @@ Se o resultado foe segunda, ele entregára esse resultado e irá parar, caso nã
 
 Lembrando que os nmeros começam a partir do 0. 
 
+_________________________________________________________________________
+
+Os laços de repetição serevm para fazer um comando ser execuad enquanto (while) ele for verdadeiro, o fazendo se repetir enquanto aquela condição estiver ocorrendo, e quando ela para, o ciclio termina, assim termiando a função.
 
 
 */
