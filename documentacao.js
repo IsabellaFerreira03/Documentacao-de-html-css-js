@@ -273,6 +273,21 @@ _________________________________________________________________________
 
 Os laços de repetição serevm para fazer um comando ser execuad enquanto (while) ele for verdadeiro, o fazendo se repetir enquanto aquela condição estiver ocorrendo, e quando ela para, o ciclio termina, assim termiando a função.
 
+O for serve para a mesma função, porem um pouco diferente, nele, as coisas são simplificadas e na maior parte, tem apenas 3 fases, que são essas aqui:
+
+for(   ;     ;    )
+
+Primeiro ele pega a iniciação, que é a variavel que ele vai iniciar, 
+depois ele pega o teste lógico, e por ultimo, o incremento. Veja o exemplo:
+
+for(var c = 1;c <= 5;c++
+
+)
+
+Isso é apenas um exemplo de código, mas funciona asssim.
+
 
 */
+
+
 
