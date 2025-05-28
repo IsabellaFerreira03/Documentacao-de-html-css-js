@@ -1,8 +1,66 @@
 /* 
---COMANDOS
+No CSS usamos seletores para conseguirmos modificar o que queremos, para isso basta pegar a tag que deseja e abrir um {} depois dela. Como poe exemplo:
+
+body {
+}
+
+Todos os estilos e configurações ficaram dentro dessa chave. Isso vale para qualquer tag.
+
+_____________________________________________________________________
+
+Os imports devem ficar acima de tudo, seja de fonts ou icones. Deve haver todo o código do impot e então quando for ser usado, ter sua silha ou palavra chave colocada.
+
+Para fonts, o import fica acia de tudo, e depois na tag font, é colocado o nome da foont family do impot (que é pega no mesmo lugar do import da font).
+_____________________________________________________________________
+
+* { } Serve para que todo colocado dentro dela sirva para todo o restante do CSS.
+_____________________________________________________________________
+
+px (pixels): Unidade fixa que representa um ponto na tela. É amplamente utilizada, mas não se adapta automaticamente a diferentes tamanhos de tela.
+
+rem (root em): Baseia-se no tamanho da fonte do elemento <html>. Se html tiver font-size: 16px, 1rem será igual a 16px. Isso facilita a criação de layouts responsivos.
+
+em: Similar ao rem, mas relativo ao tamanho da fonte do elemento pai. Se um elemento tiver font-size: 16px e seu pai tiver font-size: 20px, então 1em será 20px.
+
+% (porcentagem): Define valores relativos ao elemento pai. Por exemplo, width: 50% significa que o elemento terá metade da largura do seu elemento pai.
+
+vh (viewport height) / vw (viewport width): Relativos ao tamanho da tela do usuário. 1vh equivale a 1% da altura da tela, e 1vw equivale a 1% da largura da tela.
+
+vmin / vmax: vmin é baseado no menor lado da tela, e vmax no maior. Útil para layouts responsivos.
+_____________________________________________________________________
+
+background-color: Serve para mudar a cor do plano de fundo.
+
+color: Serve para mudar a cor da letra de terminada tag.
+
+margin: Serve para difinir a largura da margem.
+
+padding: Serve para decidir o tamanho entre o espaço em cima e embaixo do texto.
+
+box-sizing: Serev para definir a altura e a largura de um elemento. Suas variantes são.
+box_sizing: content-box; Serve como o padrão normalmente usado.
+box_sizing: border-box Serve para...
+
+font-family: Sere para identificar a familia da fobte usada.
+font-weigth: Serve para o 'peso' da font, sendo o seu nivel de largura, força ou 'negrito'.
+
+text-align: Serve para decidir a posição d alinhamento do texto.
+text-alig: center; Serve para alinhar o texto no centro.
+_____________________________________________________________________
+
+Para manipular os imputs, deve fazer do seguinte jieto: 
+
+Exemplo:
+
+input[type="radio"] {
+}
+_____________________________________________________________________
+
+accent-color: A propriedade accent-color serve para personalizar a cor de destaque de elementos interativos nativos no HTML, como checkboxes, botões de rádio, barras de progresso e medidores (<meter>).
+
 
 As divs, quando forem passadas para o CSS, devem ter o titulo, exemplo: div#exemplo. Primeiro deve vir o nome da div, depois o # e então o nome dela. Então será aberto um {}. Exemplo div#exemplo { }. E dentrro dela, começará o estilo da div.
-___________________________________________________________________________
+_____________________________________________________________________
 
 background-color: Serve para dar cor ao fundo, ou melhor, preencher tudo, normalmente é usado para dar ao body, mas pode ser usado em outras tags também.
 
