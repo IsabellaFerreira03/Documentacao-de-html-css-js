@@ -6,15 +6,13 @@ body {
 
 Todos os estilos e configurações ficaram dentro dessa chave. Isso vale para qualquer tag.
 
-_____________________________________________________________________
-
 Os imports devem ficar acima de tudo, seja de fonts ou icones. Deve haver todo o código do impot e então quando for ser usado, ter sua silha ou palavra chave colocada.
 
-Para fonts, o import fica acia de tudo, e depois na tag font, é colocado o nome da foont family do impot (que é pega no mesmo lugar do import da font).
-_____________________________________________________________________
+Para fonts, o import fica acima de tudo, e depois na tag font, é colocado o nome da foont family do impot (que é pega no mesmo lugar do import da font).
+____________________________________________________________________
 
 * { } Serve para que todo colocado dentro dela sirva para todo o restante do CSS.
-_____________________________________________________________________
+____________________________________________________________________
 
 px (pixels): Unidade fixa que representa um ponto na tela. É amplamente utilizada, mas não se adapta automaticamente a diferentes tamanhos de tela.
 
@@ -76,6 +74,505 @@ text-align: Serve para alinhar o texto em uma posição.
 
 font: Serve para determinar o tipo de fonte, tamanho e posições das palavras e letras usadas no site. 
 
+_____________________________________________________________________
 
+Seletores
+* → Seleciona todos os elementos da página.
+
+tag → Seleciona elementos específicos pelo nome da tag (p, div, h1, etc.).
+
+.classe → Seleciona elementos que possuem uma determinada classe.
+
+#id → Seleciona elementos pelo seu ID exclusivo.
+
+[atributo] → Seleciona elementos com um atributo específico (input[type="text"]).
+
+Propriedades de Estilização
+color → Define a cor do texto.
+
+background-color → Define a cor de fundo do elemento.
+
+font-size → Ajusta o tamanho da fonte.
+
+font-family → Define a família de fontes do texto.
+
+text-align → Alinha o texto (left, center, right, justify).
+
+Box Model (Espaçamento e Bordas)
+width / height → Define a largura e altura do elemento.
+
+margin → Define o espaçamento externo do elemento.
+
+padding → Define o espaçamento interno do elemento.
+
+border → Define as propriedades da borda (solid, dashed, dotted).
+
+box-shadow → Adiciona sombra ao elemento.
+
+Layout e Posicionamento
+display → Define como os elementos são exibidos (block, inline, flex, grid).
+
+position → Controla a posição dos elementos (static, relative, absolute, fixed).
+
+top, left, right, bottom → Define a distância dos elementos em relação ao seu contêiner.
+
+z-index → Controla a ordem de sobreposição dos elementos.
+
+Efeitos e Transições
+opacity → Define a opacidade do elemento.
+
+transform → Aplica transformações como rotação, escala e translação.
+
+transition → Adiciona efeitos de transição entre mudanças de estado.
+
+animation → Define animações CSS.
+
+Efeitos Visuais e Decoração
+text-decoration → Define a decoração do texto (none, underline, line-through, overline).
+
+text-transform → Controla a capitalização do texto (uppercase, lowercase, capitalize).
+
+letter-spacing → Ajusta o espaçamento entre letras.
+
+word-spacing → Ajusta o espaçamento entre palavras.
+
+filter → Aplica efeitos visuais como blur(), grayscale(), brightness().
+
+Estilo de Listas
+list-style-type → Define o estilo dos marcadores de listas (disc, circle, square, none).
+
+list-style-position → Controla a posição dos marcadores (inside, outside).
+
+list-style-image → Define uma imagem personalizada como marcador da lista.
+
+Tabelas
+border-collapse → Controla a borda das tabelas (collapse, separate).
+
+border-spacing → Define o espaçamento entre células da tabela.
+
+empty-cells → Define a visibilidade de células vazias (show, hide).
+
+Flexbox (Layouts Responsivos)
+display: flex; → Define um contêiner flexível.
+
+flex-direction → Define a direção dos itens (row, column).
+
+justify-content → Alinha os itens horizontalmente (center, space-between, flex-start).
+
+align-items → Alinha os itens verticalmente (center, stretch, baseline).
+
+flex-wrap → Controla a quebra de linha dos itens (nowrap, wrap, wrap-reverse).
+
+Grid Layout (Controle de Layout mais Avançado)
+display: grid; → Define um contêiner de grade.
+
+grid-template-columns → Define colunas com tamanhos específicos.
+
+grid-template-rows → Define linhas com tamanhos específicos.
+
+gap → Controla o espaçamento entre elementos da grade.
+
+place-items → Alinha os itens da grade (center, start, end).
+
+Propriedades de Cores e Gradientes
+background-image → Define uma imagem como fundo.
+
+background-size → Ajusta o tamanho da imagem de fundo.
+
+background-repeat → Controla a repetição da imagem de fundo.
+
+background-position → Define a posição da imagem de fundo.
+
+linear-gradient() → Cria um gradiente linear.
+
+radial-gradient() → Cria um gradiente radial.
+
+Propriedades Avançadas de Texto
+white-space → Controla a quebra de linhas (normal, nowrap, pre).
+
+overflow-wrap → Controla a quebra de palavras (normal, break-word).
+
+direction → Define a direção do texto (ltr, rtl).
+
+Transformações e Efeitos
+perspective → Define profundidade 3D em elementos.
+
+rotate() → Rotaciona um elemento.
+
+scale() → Ajusta o tamanho do elemento.
+
+translate() → Move um elemento em qualquer direção.
+
+Pseudo-classes e Pseudo-elementos
+:hover → Aplica estilos quando o usuário passa o mouse sobre o elemento.
+
+:focus → Aplica estilos quando o elemento recebe foco.
+
+:nth-child(n) → Seleciona um filho específico de um elemento pai.
+
+::before / ::after → Adiciona elementos virtuais antes ou depois de um elemento.
+
+Responsividade e Media Queries
+@media → Define regras específicas para diferentes tamanhos de tela.
+
+min-width / max-width → Define limites de largura para layouts adaptáveis.
+
+vw / vh → Usa valores proporcionais à largura e altura da tela.
+
+clamp() → Define valores responsivos entre um mínimo e um máximo.
+
+Propriedades Avançadas de Fundo
+background-attachment → Define se o fundo rola com a página (scroll, fixed, local).
+
+background-clip → Controla a área onde o fundo é exibido (border-box, padding-box, content-box).
+
+Ajustes de Cursor
+cursor → Altera o cursor do mouse (pointer, default, crosshair, wait).
+
+Propriedades de Scroll e Overflow
+overflow → Controla o comportamento do conteúdo que ultrapassa o contêiner (visible, hidden, scroll, auto).
+
+scroll-behavior → Define a rolagem suave (auto, smooth).
+
+Propriedades Avançadas de Flexbox
+align-content → Alinha múltiplas linhas em um contêiner flexível (stretch, center, space-between).
+
+order → Define a ordem dos elementos dentro do flexbox.
+
+Grid Layout Avançado
+grid-auto-flow → Controla a direção automática de itens (row, column).
+
+grid-area → Define uma área nomeada dentro da grade.
+
+grid-template-areas → Cria layouts organizados com nomes de áreas.
+
+Animações e Interações
+animation-name → Define o nome da animação.
+
+animation-duration → Controla a duração da animação.
+
+animation-iteration-count → Define quantas vezes a animação se repete (infinite, número específico).
+
+animation-timing-function → Define o ritmo da animação (ease, linear, ease-in-out).
+
+Propriedades Miscellaneous
+visibility → Controla a visibilidade de um elemento (visible, hidden, collapse).
+
+clip-path → Recorta um elemento em formas personalizadas.
+
+user-select → Define se o usuário pode selecionar texto (none, auto, all).
+
+writing-mode → Controla a direção do texto (horizontal-tb, vertical-rl).
+
+Propriedades de Colunas
+column-count → Define o número de colunas em um layout.
+
+column-gap → Controla o espaço entre colunas.
+
+column-width → Define a largura das colunas.
+
+column-rule → Adiciona uma linha separadora entre colunas.
+
+Propriedades de Contorno
+outline → Define um contorno ao redor do elemento, semelhante à borda, mas sem afetar o layout.
+
+outline-offset → Define a distância entre o contorno e o elemento.
+
+outline-color → Define a cor do contorno.
+
+outline-width → Define a espessura do contorno.
+
+Propriedades de Scroll Avançado
+scroll-snap-type → Define um comportamento de rolagem suave e controlada (mandatory, proximity).
+
+scroll-snap-align → Controla o alinhamento do elemento dentro do contêiner de rolagem.
+
+scroll-margin → Define margens ao redor do elemento dentro do scroll.
+
+scroll-padding → Ajusta o espaçamento interno dentro do scroll.
+
+Modo de Mistura de Cores
+mix-blend-mode → Define como as cores do elemento e do fundo interagem (multiply, screen, overlay).
+
+background-blend-mode → Controla a fusão entre camadas de fundo.
+
+Propriedades Avançadas de Responsividade
+aspect-ratio → Mantém a proporção de um elemento (16/9, 4/3).
+
+container-type → Define um contêiner responsivo para layouts flexíveis (size, inline-size).
+
+Propriedades de Máscaras
+mask-image → Define uma máscara para esconder partes do elemento.
+
+mask-position → Ajusta a posição da máscara.
+
+mask-size → Define o tamanho da máscara aplicada.
+
+Propriedades de Tipografia Avançada
+font-variant → Controla variações tipográficas, como small-caps e tabular-nums.
+
+line-break → Define como as quebras de linha ocorrem (auto, loose, strict).
+
+hyphens → Controla a hifenização automática do texto (none, manual, auto).
+
+Controles de Layout com CSS Grid Avançado
+grid-auto-columns → Define o tamanho automático das colunas em um grid.
+
+grid-auto-rows → Define o tamanho automático das linhas em um grid.
+
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); → Cria colunas adaptáveis e responsivas.
+
+Propriedades Avançadas de Visibilidade e Comportamento
+will-change → Indica quais propriedades serão animadas para otimizar desempenho.
+
+visibility: collapse; → Esconde elementos sem remover seu espaço no layout.
+
+contain → Controla isolamento de elementos para melhor performance (size, layout, paint).
+
+Interação do Usuário
+pointer-events → Controla a interação do usuário com um elemento (none, auto).
+
+touch-action → Define como um elemento responde a gestos de toque (none, manipulation).
+
+Propriedades de Contêineres Flexíveis e Fluídos
+object-fit → Ajusta como imagens e vídeos são redimensionados (cover, contain, fill).
+
+object-position → Define a posição da mídia dentro do contêiner.
+
+mande mais
+Parece que você quer dominar CSS completamente! Aqui estão mais propriedades avançadas para levar seus estilos ao próximo nível:
+
+Propriedades de Bordas Avançadas
+border-image → Permite usar uma imagem como borda.
+
+border-image-source → Define a URL da imagem usada na borda.
+
+border-image-slice → Controla como a imagem da borda é cortada e distribuída.
+
+Efeitos de Sombra e Iluminação
+text-shadow → Adiciona sombras ao texto.
+
+box-shadow → Cria sombras em torno de caixas e elementos.
+
+Propriedades de Animação Avançadas
+animation-fill-mode → Define como a animação afeta um elemento antes e depois da execução.
+
+animation-play-state → Controla se a animação está pausada ou rodando (running, paused).
+
+animation-delay → Define um tempo de espera antes que a animação comece.
+
+Propriedades de Contêineres e Formatação de Layout
+display: contents; → Remove o próprio elemento do layout, mantendo seus filhos visíveis.
+
+visibility: hidden; → Esconde o elemento sem removê-lo do fluxo do layout.
+
+position: sticky; → Fixa um elemento na tela quando o usuário rola a página.
+
+Propriedades de Exibição e Visibilidade
+opacity: 0; → Torna um elemento completamente transparente.
+
+visibility: collapse; → Esconde um elemento dentro de tabelas sem afetar o layout.
+
+Máscaras e Recortes
+clip-path → Define um recorte personalizado para um elemento.
+
+mask-composite → Controla como múltiplas máscaras interagem umas com as outras.
+
+Propriedades de Texto e Interação
+word-wrap → Controla a quebra de palavras (normal, break-word).
+
+text-overflow → Define como o texto deve se comportar quando ultrapassa o contêiner (ellipsis, clip).
+
+Propriedades de Multimídia
+object-fit: contain; → Faz imagens e vídeos se ajustarem ao contêiner sem cortar.
+
+object-fit: cover; → Faz imagens e vídeos preencherem o contêiner proporcionalmente.
+
+object-position → Define a posição da mídia dentro do elemento.
+
+Propriedades Avançadas de Layout
+display: inline-block; → Permite que elementos se comportem como block e inline ao mesmo tempo.
+
+visibility: hidden; → Oculta um elemento sem removê-lo do layout.
+
+isolation: isolate; → Evita que elementos afetem uns aos outros em misturas de cor.
+
+Propriedades de Texto e Interação
+writing-mode → Controla a direção do texto (horizontal-tb, vertical-rl).
+
+user-select: none; → Impede que o usuário copie texto.
+
+pointer-events: none; → Impede interações de clique no elemento.
+
+CSS Avançado para Scroll e Overflow
+scroll-margin-top → Adiciona uma margem superior ao elemento quando ele é focado por rolagem.
+
+scroll-margin-bottom → Adiciona uma margem inferior ao elemento quando ele é rolado até a visualização.
+
+scroll-padding → Define espaçamentos internos para a rolagem.
+
+Efeitos de Desfoque e Filtros
+filter: blur(5px); → Aplica um desfoque ao elemento.
+
+filter: grayscale(100%); → Transforma o elemento em tons de cinza.
+
+filter: brightness(150%); → Ajusta o brilho do elemento.
+
+Propriedades para Contêineres Responsivos
+aspect-ratio: 16/9; → Mantém uma proporção fixa em elementos como imagens e vídeos.
+
+container-type: inline-size; → Define um contêiner flexível baseado no tamanho interno.
+
+Propriedades de Imagens e Vídeos
+image-rendering → Controla a qualidade de renderização de imagens (auto, crisp-edges, pixelated).
+
+object-fit: scale-down; → Ajusta imagens para caberem no contêiner sem ultrapassar suas dimensões.
+
+backface-visibility → Controla a visibilidade do verso de elementos transformados (visible, hidden).
+
+Propriedades Avançadas de Scroll e Layout
+overscroll-behavior → Define o comportamento ao ultrapassar os limites da rolagem (contain, none, auto).
+
+scroll-snap-stop → Controla quando a rolagem para no elemento (always, normal).
+
+Modo de Mistura de Cor Avançado
+mix-blend-mode: difference; → Mistura cores com base na diferença entre os tons.
+
+mix-blend-mode: luminosity; → Mistura as cores considerando o brilho.
+
+CSS Avançado para Formulários
+appearance: none; → Remove estilos padrão de elementos de formulário.
+
+resize → Controla se um usuário pode redimensionar um elemento (none, horizontal, vertical, both).
+
+Efeitos Gráficos e Deformações
+perspective-origin → Define o ponto de origem de uma perspectiva 3D.
+
+shape-outside → Define formas para ajustar o fluxo de texto ao redor de imagens.
+
+Propriedades de Layout e Comportamento
+contain: layout; → Impede que um elemento afete o layout ao redor.
+
+container-name → Permite identificar contêineres para consultas avançadas.
+
+Propriedades de Conteúdo e Comportamento
+content → Define o conteúdo gerado via ::before e ::after.
+
+quotes → Controla quais símbolos de aspas são usados em citações automáticas.
+
+counter-reset → Define contadores numéricos para listas e elementos.
+
+counter-increment → Incrementa valores numéricos automaticamente em elementos.
+
+Propriedades de Controle de Layout e Estrutura
+all: unset; → Remove todos os estilos aplicados a um elemento.
+
+contain: paint; → Impede que um elemento afete a renderização de outros.
+
+overscroll-behavior: contain; → Define regras de rolagem para impedir ultrapassagem de limites.
+
+Propriedades de Comportamento de Input e Interação
+caret-color → Define a cor do cursor em campos de texto.
+
+accent-color → Altera a cor de destaque de elementos interativos, como checkboxes e progress bars.
+
+Efeitos Gráficos e Transformações Avançadas
+perspective → Controla a profundidade de elementos em transformações 3D.
+
+perspective-origin → Define o ponto de origem para efeitos de profundidade.
+
+transform-origin → Ajusta o ponto de referência para transformações.
+
+clip-path → Permite recortar elementos em formas personalizadas.
+
+Propriedades para Layouts Responsivos e Dinâmicos
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); → Cria grids flexíveis e adaptáveis ao conteúdo.
+
+grid-auto-flow: dense; → Organiza os itens de um grid para preencher espaços vazios.
+
+display: subgrid; → Permite elementos filhos adotarem a estrutura do grid pai.
+
+Propriedades de Estilização Avançadas
+line-clamp → Limita a quantidade de linhas visíveis de um texto.
+
+text-overflow: ellipsis; → Adiciona "..." ao final de textos que ultrapassam o contêiner.
+
+hyphens: auto; → Permite a quebra automática de palavras com hífens.
+
+Propriedades Avançadas de Tabelas
+caption-side → Define a posição da legenda de uma tabela (top, bottom).
+
+table-layout → Controla a forma como o layout da tabela é calculado (auto, fixed).
+
+Propriedades Avançadas de Scroll
+scroll-timeline → Permite animações sincronizadas com a rolagem da página.
+
+scroll-padding-inline → Define espaçamento interno específico para rolagem horizontal.
+
+scroll-padding-block → Define espaçamento interno para rolagem vertical.
+
+Propriedades de Tipografia e Conteúdo
+font-feature-settings → Habilita ajustes tipográficos avançados, como ligaduras e números estilizados.
+
+initial-letter → Destaca a primeira letra de um bloco de texto como capitular.
+
+Propriedades para Estilizar Inputs e Interatividade
+appearance: none; → Remove estilos padrões do navegador em inputs e botões.
+
+accent-color → Define a cor de destaque em checkboxes, radio buttons e progress bars.
+
+Efeitos Gráficos e Filtragem
+filter: hue-rotate(90deg); → Modifica a matiz das cores do elemento.
+
+filter: sepia(100%); → Aplica um efeito sépia ao elemento.
+
+Propriedades de Estilização de Imagens
+mask-type → Define o tipo de máscara aplicada a imagens (luminance, alpha).
+
+image-orientation → Controla a orientação de exibição de imagens.
+
+image-resolution → Define a qualidade de renderização de imagens de alta resolução.
+
+Propriedades Avançadas de Grade
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); → Cria layouts responsivos dinâmicos.
+
+grid-template-rows: auto; → Define linhas automáticas ajustáveis no layout de grade.
+
+Propriedades Avançadas de Layout e Grid
+grid-template-areas → Define áreas nomeadas para facilitar layouts complexos.
+
+place-content → Controla alinhamento vertical e horizontal dentro de grids e flexboxes.
+
+display: run-in; → Permite que um elemento mude de comportamento dependendo do contexto.
+
+Propriedades de Interatividade e Animação
+animation-direction: alternate; → Faz a animação rodar em direções alternadas.
+
+animation-fill-mode: both; → Mantém estilos aplicados antes e depois da animação.
+
+scroll-snap-type: mandatory; → Define um posicionamento fixo na rolagem para garantir o alinhamento.
+
+Propriedades Avançadas de Imagens e Vídeos
+image-orientation: from-image; → Ajusta automaticamente a orientação de imagens baseando-se em metadados.
+
+image-rendering: pixelated; → Mantém pixels nítidos em imagens ao serem escaladas.
+
+Propriedades de Textos e Formatação
+font-stretch → Ajusta a largura da fonte (condensed, expanded).
+
+word-break: break-word; → Força que palavras longas sejam quebradas para evitar overflow.
+
+writing-mode: vertical-lr; → Define a orientação do texto para leitura vertical.
+
+Propriedades Avançadas de Fundo e Bordas
+
+border-image-width → Define a largura da imagem usada como borda.
+
+background-blend-mode: multiply; → Mistura o fundo do elemento com suas cores sobrepostas.
+
+Propriedades Avançadas de Layout Responsivo
+max-inline-size → Define um tamanho máximo baseado na largura inline do elemento.
+
+contain: size layout paint; → Melhora a performance limitando o impacto do elemento no restante da página.
 
 */
